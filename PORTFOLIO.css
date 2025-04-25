@@ -1,0 +1,136 @@
+*{ 
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+ 
+  color: rgb(173, 161, 161);
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: linear-gradient(to right, #061332, #000000);
+  color: rgb(195, 185, 185);
+}
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+header{
+  background-color: rgb(20, 19, 19);
+  color: white;
+  text-align: center;
+  background: url('IMM.jpg') no-repeat center/cover;
+  color: white;
+  animation: fadeIn 2s ease-in;
+  display: flex;
+  justify-content: space-between;
+ 
+  
+}
+.logo{
+  font-size: 1.5rem;
+    font-weight: bold;
+    color:yellow;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 20px;
+}
+.colour{
+  color: yellow;
+}
+h1{
+  cursor: default;
+  
+}
+.nav{
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  height: min-content;
+  
+}
+.box{
+  padding:5px;
+}
+.box:hover:hover{
+  transform: scale(0.95);
+}
+
+.nav a{
+  text-decoration: none;
+  color:rgb(195, 185, 185);
+  
+}
+header .nav a{
+  color: yellow;
+}
+.INTRO{
+  padding: 60px 20px;
+  font-size: larger;
+  padding: 200px;
+}
+.text{
+  color:skyblue;
+}
+#about{
+  padding: 200px;
+}
+.aboutme , .myskills , .myprojects , .mycontact{
+  padding: 150px;
+  font-size: 50px;
+  color: #FFB347;
+}
+
+#about , #skills , #projects , #contact{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 200px;
+
+  
+}
+h2{
+  padding: 40px;
+}
+p{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+br{
+  padding: 40px;
+}
+
+
+ol{
+  justify-content: space-between;
+}
+a{
+  text-align: right;
+  padding: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.arr{
+  padding: 10px;
+}
+#projects{
+  padding: 100px;
+}
+footer{
+  background-color:rgb(20, 19, 19) ;
+  
+}
+.space{
+       display: grid;
+       grid-row: auto;
+       padding: 30px;
+}
+span{
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+span2{
+  color: rgb(157, 157, 80);
+}
